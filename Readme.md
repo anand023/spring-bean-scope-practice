@@ -1,0 +1,2 @@
+### Q. Can a bean class with private constructor be instantiated in Spring framework?
+###### Ans: Yes, Spring can invoke private constructors and instantiate object. Spring uses the reflection API to set the bean constructor accessible when it find the constructor with the right arguments, regardless of its visibility.
